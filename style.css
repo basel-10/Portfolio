@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  padding:0;
+}
+html, body{
+  text-align: center;
+  background-color: #ffffff;
+  font-family: 'Amatic SC', cursive;
+  
+}
+
+#navbar{
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  padding-top: 30px;
+}
+
+nav ul{
+  list-style: none;
+  text-align: center;
+  }
+
+nav li a{
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  }
+  nav li a:hover{
+      color: rgb(65, 255, 65);
+  }
+
+li a:visited{
+  color: white;
+}
+nav ul li {
+  display: inline-block;
+}
+
+#welcome-section{
+  margin-top: 100px;
+  letter-spacing: 2px;
+  top: 0;
+  min-height: 55vh;
+  padding-top: 45vh;
+  /*   line-height: 100vh; */
+  /*   width:100%;
+  height:96vh;
+border:solid; */
+}
+#projects{
+  height: 600px;
+}
+.box{
+  display: inline-block;
+ margin: 2.5%;
+ border: 1px solid black;
+}
+img{
+  width: 430px;
+  height: 240px;
+  padding: 0px;
+}
+.title{
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#contact{
+  margin-top: 230px;
+  background-color: #6E6E6E;
+  
+  
+}
+.contact{
+  display: inline-block;
+  
+  margin: 0 auto;
+}
+.contact li {
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin: 10px;
+  }
+#contact p{
+  font-size: 1.7em;
+  font-weight: 700;
+}
+#contact li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+ 
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  }
+
+#contact li a:visited{
+  color: white;
+}
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+.box{
+  display: inline-block;
+  float: right;
+  width: 95%;
+  margin: 2.5%;}
+
+  #projects{
+    height: 1000px;
+  }}
+@media only screen and (max-width: 367px)
